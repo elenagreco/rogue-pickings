@@ -1,0 +1,158 @@
+/****** BASE STYLES *****/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+header, body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+
+/***** HEADER *****/
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    padding: 15px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+div {
+    display: block;
+}
+
+header span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 20px 25px 15px 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/***** TOP SECTION ******/
+
+.main-image img {
+	border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+
+
+h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#welcome {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+
+/***** BOTTOM SECTION *****/
+
+.section-one, .section-two, .section-three {
+    border-top: 1px solid #eee;
+    float: left;
+    height: auto;
+    padding-top: 10px;
+    width: 399px;
+}
+
+.section-one h3, .section-two h3, .section-three h3 {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.section-one li {
+    color: #77a466;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.section-two h3,
+.section-three h3{
+	   padding-left: 30px;
+}
+
+.section-two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.section-two p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 21px;
+    padding: 0px 30px;
+}
+
+.section-three p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0px 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    border-top: 1px solid #eee;
+    clear: both;
+    padding: 15px 0px;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    font-family: 'Wisdom Script', cursive;
+  	text-transform: lowercase;
+		font-style: italic;
+  	color: #77a466;
+    font-size: 14px;
+}
