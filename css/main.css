@@ -5,6 +5,10 @@
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
 
+html {
+    font-size:16px;
+}
+
 header, body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +17,7 @@ header, body {
 body {
     margin: 0 auto;
     width: 1200px;
+    font-size: 1em;
 }
 
 .half-width {
